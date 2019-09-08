@@ -60,5 +60,8 @@ typings/
 # next.js build output
 .next
 
+# dependencies
+package-lock.json
+
 # Editor
 .idea/
