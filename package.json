@@ -22,5 +22,7 @@
   "bugs": {
     "url": "https://github.com/t09tanaka/next-critical-css/issues"
   },
-  "homepage": "https://github.com/t09tanaka/next-critical-css#readme"
+  "homepage": "https://github.com/t09tanaka/next-critical-css#readme",
+  "devDependencies": {
+    "prettier": "^1.18.2"
 }
