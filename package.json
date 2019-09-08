@@ -1,0 +1,26 @@
+{
+  "name": "next-critical-css",
+  "version": "0.0.1",
+  "description": "Custom Header for embed Critical CSS with Next.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/t09tanaka/next-critical-css.git"
+  },
+  "keywords": [
+    "nextjs",
+    "react",
+    "critical css",
+    "hoc",
+    "high order component"
+  ],
+  "author": "Takuto Tanaka <t09tanaka@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/t09tanaka/next-critical-css/issues"
+  },
+  "homepage": "https://github.com/t09tanaka/next-critical-css#readme"
+}
