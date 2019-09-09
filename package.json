@@ -1,5 +1,5 @@
 {
-  "name": "next-critical-css",
+  "name": "next-critical",
   "version": "0.0.1",
   "description": "Custom Header for embed Critical CSS with Next.js",
   "main": "dist/index.js",

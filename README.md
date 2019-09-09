@@ -1,6 +1,6 @@
-# Next Critical CSS⚡
+# Next Critical⚡
 
-Next Critical CSS is a plug in that improve your web site speed.
+Next Critical is a plug in that improve your web site speed with Critical CSS.
 
 ## How to use
 
