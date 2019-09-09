@@ -4,7 +4,7 @@
   "description": "Custom Header for embed Critical CSS with Next.js",
   "main": "index.js",
   "scripts": {
-    "build": "taskr",
+    "build": "rm -rf dist/ && tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -24,11 +24,6 @@
     "url": "https://github.com/t09tanaka/next-critical-css/issues"
   },
   "homepage": "https://github.com/t09tanaka/next-critical-css#readme",
-  "taskr": {
-    "requires": [
-      "./taskfile-babel.js"
-    ]
-  },
   "devDependencies": {
     "@babel/core": "^7.6.0",
     "@babel/plugin-proposal-class-properties": "^7.5.5",
@@ -36,8 +31,6 @@
     "@babel/preset-env": "^7.6.0",
     "@babel/preset-react": "^7.0.0",
     "@babel/preset-typescript": "^7.6.0",
-    "@taskr/clear": "^1.1.0",
-    "@taskr/esnext": "^1.1.0",
     "@types/next": "^8.0.6",
     "@types/react": "^16.9.2",
     "@types/react-dom": "^16.9.0",
