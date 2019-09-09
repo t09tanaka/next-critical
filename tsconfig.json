@@ -4,12 +4,18 @@
     "module": "esnext",
     "target": "ES2017",
     "esModuleInterop": true,
+    "skipLibCheck": true,
+    "declaration": true,
+    "pretty": true,
+    "newLine": "lf",
     "moduleResolution": "node",
-    "jsx": "react"
+    "jsx": "react",
+    "rootDir": "./src",
+    "outDir": "./dist"
   },
-  "exclude": ["dist", "./*.d.ts"],
+  "exclude": ["dist", "./*.d.ts", "node_modules"],
   "include": [
-    "**/*.ts",
-    "**/*.tsx"
+    "./src/**/*.ts",
+    "./src/**/*.tsx"
   ]
 }
