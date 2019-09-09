@@ -2,7 +2,7 @@
   "name": "next-critical-css",
   "version": "0.0.1",
   "description": "Custom Header for embed Critical CSS with Next.js",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "build": "rm -rf dist/ && tsc",
     "test": "echo \"Error: no test specified\" && exit 1"

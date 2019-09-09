@@ -1,0 +1,7 @@
+.prettierrc.json
+.prettierignores
+tsconfig.json
+tslint.json
+example/
+src/
+.idea/
