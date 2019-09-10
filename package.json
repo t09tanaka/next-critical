@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/t09tanaka/next-critical-css.git"
+    "url": "git+https://github.com/t09tanaka/next-critical.git"
   },
   "keywords": [
     "nextjs",
@@ -21,9 +21,9 @@
   "author": "Takuto Tanaka <t09tanaka@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/t09tanaka/next-critical-css/issues"
+    "url": "https://github.com/t09tanaka/next-critical/issues"
   },
-  "homepage": "https://github.com/t09tanaka/next-critical-css#readme",
+  "homepage": "https://github.com/t09tanaka/next-critical#readme",
   "devDependencies": {
     "@babel/core": "^7.6.0",
     "@babel/plugin-proposal-class-properties": "^7.5.5",
