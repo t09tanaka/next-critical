@@ -1,6 +1,6 @@
 {
   "name": "next-critical",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Custom Header for embed Critical CSS with Next.js",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
