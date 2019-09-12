@@ -1,8 +1,9 @@
 {
   "name": "next-critical",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Custom Header for embed Critical CSS with Next.js",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "rm -rf dist/ && tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -25,21 +26,18 @@
   },
   "homepage": "https://github.com/t09tanaka/next-critical#readme",
   "devDependencies": {
-    "@babel/core": "^7.6.0",
-    "@babel/plugin-proposal-class-properties": "^7.5.5",
-    "@babel/plugin-transform-runtime": "^7.6.0",
-    "@babel/preset-env": "^7.6.0",
-    "@babel/preset-react": "^7.0.0",
-    "@babel/preset-typescript": "^7.6.0",
     "@types/next": "^8.0.6",
     "@types/react": "^16.9.2",
-    "@types/react-dom": "^16.9.0",
-    "node-notifier": "^5.4.3",
+    "next": "^9.0.5",
     "prettier": "^1.18.2",
-    "taskr": "^1.1.0",
+    "react": "^16.9.0",
     "typescript": "^3.6.2"
   },
   "engines": {
     "node": ">= 8.0.0"
+  },
+  "peerDependencies": {
+    "next": "^9.0.5",
+    "react": "^16.9.0"
   }
 }
