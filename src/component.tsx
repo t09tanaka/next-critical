@@ -71,14 +71,11 @@ const CustomHead = (
       } else {
         return (
           <React.Fragment key={`style`}>
-            (
               <style
                 dangerouslySetInnerHTML={{
                   __html: styleSheetContent,
                 }}
               />
-            )
-            />
           </React.Fragment>
         )
       }
